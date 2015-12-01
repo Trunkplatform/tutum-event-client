@@ -1,0 +1,20 @@
+{
+  "name": "tutum-event-client",
+  "version": "1.0.0",
+  "description": "simple websocket client listening to Tutum Stream API events",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websocket",
+    "tutum",
+    "api"
+  ],
+  "author": "yun@trunkplatform.com",
+  "license": "MIT",
+  "dependencies": {
+    "console-stamp": "^0.2.0",
+    "ws": "^0.8.1"
+  }
+}
