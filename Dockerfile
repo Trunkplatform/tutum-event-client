@@ -1,4 +1,4 @@
-FROM quay.io/trunk/docker-alpine-node-kubernetes
+FROM quay.io/trunk/alpine-node-kubernetes:5.1
 
 ENV NODE_ENV production
 ENV HOME /app
@@ -6,7 +6,7 @@ ENV HOME /app
 WORKDIR /app
 
 COPY rootfs /
-COPY package.json /app/package.json
-COPY src app/src
+COPY package.json package.json
+COPY src src
 
-RUN npm installs
+RUN npm install

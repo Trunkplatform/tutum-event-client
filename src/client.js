@@ -12,8 +12,9 @@ ws.on('open', function open() {
     console.log("connected");
 });
 
-ws.on('message', function(data, flags) {
-    console.log(data);
-    // flags.binary will be set if a binary data is received.
-    // flags.masked will be set if the data was masked.
+ws.on('message', function(data) {
+    var message = JSON.parse(data);
+    if (message.state === 'Success') { // && (message.parents.indexOf('/api/v1/service/193306e2-276d-4d6c-968c-c36f59248d0f/') > 1)) {
+        console.log(message);
+    }
 });

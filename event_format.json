@@ -1,0 +1,14 @@
+{
+  "state": "Success",
+  "parents": [
+    "/api/v1/container/0fc9f01d-a726-48c7-a9c2-9e34918ddf4a/",
+    "/api/v1/service/3a3e9cd9-8d95-4a7e-9e86-4b2360152332/",
+    "/api/v1/node/83faa2bb-026f-4355-a1da-b4d20f663b2e/",
+    "/api/v1/nodecluster/967f376c-8f1b-4ad4-9f87-fbd2f1eea4a1/"
+  ],
+  "action": "update",
+  "type": "action",
+  "resource_uri": "/api/v1/action/1256fc42-1e77-47e0-96cb-4d9e246629bb/",
+  "uuid": "526d474c-45cf-4e5b-9768-5a21a9850848",
+  "date": "2015-12-07T04:01:01+00:00"
+}
